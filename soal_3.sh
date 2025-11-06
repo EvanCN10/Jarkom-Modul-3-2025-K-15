@@ -26,5 +26,5 @@ service named stop
 named -g &
 
 # PADA CLIENT
-nameserver 10.78.5.2
+nameserver 10.71.5.2
 ping google.com
