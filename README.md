@@ -6,7 +6,7 @@
 |1. | Evan Christian Nainggolan | 5027241026|
 |2. | Az Zahrra Tasya Adelia | 5027241087|
 
-## 1. Konfigurasi Gateway dan IP Statik
+## Soal 1: Konfigurasi Gateway dan IP Statik
 
 **Tujuan:** Mengonfigurasi *Router* Utama (**Durin**) sebagai *Gateway* dan menetapkan semua alamat IP statik pada *node* yang relevan sesuai dengan pembagian *subnet* ($10.71.x.0/24$).
 
@@ -22,7 +22,7 @@
 
 ---
 
-## 2. Implementasi Layanan DHCP
+## Soal:2 Implementasi Layanan DHCP
 
 **Tujuan:** Mengonfigurasi server **Aldarion** sebagai *DHCP Server* dan *Router* **Durin** sebagai *DHCP Relay Agent* untuk melayani klien di dua *subnet* berbeda (**Human Family** $10.71.1.0/24$ dan **Elf Family** $10.71.2.0/24$).
 
@@ -41,7 +41,7 @@
 
 ---
 
-## 3. Instalasi dan Konfigurasi DNS Forwarder
+## Soal 3: Instalasi dan Konfigurasi DNS Forwarder
 
 **Tujuan:** Menginstal **DNS Server** pada *node* **Minastir** dan mengonfigurasinya sebagai **DNS Forwarder** untuk melayani resolusi nama dari jaringan internal ke internet.
 
@@ -55,7 +55,7 @@
 
 ---
 
-## 4. Konfigurasi DNS Master-Slave
+## Soal 4: Konfigurasi DNS Master-Slave
 
 **Tujuan:** Mengonfigurasi **Erendis** sebagai **DNS Master** dan **Amdir** sebagai **DNS Slave** untuk domain `<KXX.com>`, memastikan *zone transfer* dan redundansi DNS.
 
