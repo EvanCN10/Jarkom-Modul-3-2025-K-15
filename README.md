@@ -19,6 +19,7 @@
 * **Konfigurasi Node Statik (Contoh):**
     * Setiap *node* di jaringan Server/Infrastruktur (contoh: **Erendis, Amdir, Khamul**) diberi IP statik di *subnet* mereka masing-masing dan diarahkan ke IP Durin yang sesuai sebagai *Gateway*.
 * **Verifikasi:** Konektivitas antar *subnet* dan akses internet dari *node* statik diverifikasi menggunakan `ping`.
+<img width="873" height="671" alt="image" src="https://github.com/user-attachments/assets/c0862c71-1603-42be-b0bb-4d2c76edf518" />
 
 ---
 
@@ -38,6 +39,15 @@
         * **Elf Family ($10.71.2.0/24$):** Menetapkan *range* IP yang spesifik ($10.71.2.35$ hingga $10.71.2.121$), *router* ($10.71.2.1$), dan *lease time* (10 menit).
         * Semua *client* dikonfigurasi untuk menggunakan *DNS Server* $10.71.3.2$ dan $10.71.4.2$.
 * **Verifikasi:** Klien (contoh: **Earendil, Elrond**) dikonfigurasi untuk DHCP dan berhasil mendapatkan IP sesuai *range* yang ditentukan oleh Aldarion.
+<img width="849" height="185" alt="Screenshot 2025-11-05 114308" src="https://github.com/user-attachments/assets/5571eaee-c935-4387-8229-2a747b967910" />
+
+---
+
+<img width="866" height="229" alt="Screenshot 2025-11-05 114323" src="https://github.com/user-attachments/assets/05abfe82-c55a-476b-9299-cecd95333f4e" />
+
+---
+
+<img width="851" height="325" alt="Screenshot 2025-11-05 114338" src="https://github.com/user-attachments/assets/91fe6992-06e3-4385-9c89-77078ffbe645" />
 
 ---
 
