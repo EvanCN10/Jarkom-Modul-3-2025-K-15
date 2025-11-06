@@ -4,7 +4,7 @@ apt-get update
 apt-get install isc-dhcp-relay -y
 
 # ubah konfigurasi pada /etc/deafult/isc-dhcp-relay
-SERVERS="10.78.4.2"
+SERVERS="10.71.4.2"
 INTERFACES="eth1 eth2 eth3"
 OPTIONS="-a -i eth4"
 
